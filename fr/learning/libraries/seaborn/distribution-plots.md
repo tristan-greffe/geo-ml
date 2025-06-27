@@ -127,3 +127,9 @@ Le KDE peut :
 | KDE plot    | estimer une densité continue   |
 
 > 📌 En pratique, on combine souvent : histogramme + KDE
+
+## Fichier Python associé
+
+:::details distribution-plots
+<<< ./scripts/distribution-plots.py
+:::
