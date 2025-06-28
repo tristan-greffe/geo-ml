@@ -80,3 +80,30 @@ La réponse dépend :
 👉 Toutes les questions ne nécessitent pas un graphique. Parfois, une simple statistique descriptive suffit.
 :::
 
+## Variables continues vs variables catégorielles
+
+### Variables continues
+
+Une **variable continue** est une variable numérique qui peut prendre une **infinité de valeurs possibles** dans un intervalle (âge, taille, salaire, température, prix, distance etc.)
+
+:::tip Exemple
+Un âge de 28 ans peut être affiné :
+* 28 ans
+* 28 ans et 2 mois
+* 28 ans, 2 mois et 1 semaine
+
+➡️ On peut toujours diviser l’unité de mesure.
+:::
+
+### Variables catégorielles
+
+Une **variable catégorielle** représente des catégories **distinctes et non continues**.
+
+:::tip Exemple
+* niveau d’éducation (lycée, bachelor, master)
+* couleur (rouge, vert, bleu)
+* forme (carré, triangle, cercle)
+* noms (Marc, Claire, Vincent)
+
+➡️ Il n’existe pas de valeur intermédiaire entre deux catégories.
+:::
