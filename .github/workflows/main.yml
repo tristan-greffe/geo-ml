@@ -24,7 +24,7 @@ jobs:
           version: 9
       - name: Build
         run: |
-          pnpm install && pnpm build
+          cd docs && pnpm install && pnpm build
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:

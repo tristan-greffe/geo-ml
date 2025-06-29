@@ -1,13 +1,28 @@
-# Visual code
-.vscode
+# ── Éditeurs ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
 
-# Logs
-logs
+# ── Variables d'environnement ──────────────────────────────────────────────
+.env
+.env.*
+
+# ── Logs ──────────────────────────────────────────────────────────────────
+logs/
 *.log
 
-# Dependency directories
+# ── Node.js ───────────────────────────────────────────────────────────────
 node_modules/
 
-# vitepress
-.vitepress/cache
-.vitepress/dist
+# ── VitePress ─────────────────────────────────────────────────────────────
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# ── Python ────────────────────────────────────────────────────────────────
+**/__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# ── Modèle ML ─────────────────────────────────────────────────────────────
+model/data/       # datasets (volumieux)
+model/weights/    # poids entraînés (.pth)

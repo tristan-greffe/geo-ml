@@ -1,0 +1,3 @@
+# Endpoints
+
+> Documentation à venir.

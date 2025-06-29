@@ -4,7 +4,7 @@
 
   ![Project Banner](./public/banner_readme.png)
 
-  <p>Centralised resource on the fundamentals of machine learning</p>
+  <p>Applied AI & Machine Learning for GIS - from model training to interactive map</p>
 
   <p>
     <a href="https://github.com/tristan-greffe/machine-learning">
