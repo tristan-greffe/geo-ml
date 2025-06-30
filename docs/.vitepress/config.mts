@@ -62,7 +62,7 @@ export default withMermaid({
   }
 })
 
-// ── About ──────────────────────────────────────────────────────────────────
+// ── About
 function getAboutSidebar (lang) {
   if (lang === 'en') return [
     { text: 'GeoML',        link: '/about/introduction' },
@@ -76,7 +76,7 @@ function getAboutSidebar (lang) {
   ]
 }
 
-// ── Guide ──────────────────────────────────────────────────────────────────
+// ── Guide
 function getGuideSidebar (lang) {
   const p = lang === 'fr' ? '/fr' : ''
   const t = (fr, en) => lang === 'fr' ? fr : en
@@ -111,7 +111,7 @@ function getGuideSidebar (lang) {
   ]
 }
 
-// ── Learning (FR full sidebar) ─────────────────────────────────────────────
+// ── Learning
 function getLearningSidebar (lang) {
   const p = lang === 'fr' ? '/fr' : ''
 
@@ -171,31 +171,17 @@ function getLearningSidebar (lang) {
       ]
     },
     {
-      text: lang === 'fr' ? 'Algorithmes supervisés' : 'Supervised algorithms',
-      collapsed: true,
-      items: [
-        { text: 'Introduction', link: `${p}/learning/algorithms/introduction` },
-        { text: lang === 'fr' ? 'Régression linéaire' : 'Linear regression', collapsed: true,
-          items: [{ text: 'Introduction', link: `${p}/learning/algorithms/linear-regression/introduction` }] },
-        { text: lang === 'fr' ? 'Régression logistique' : 'Logistic regression', collapsed: true,
-          items: [{ text: 'Introduction', link: `${p}/learning/algorithms/logistic-regression/introduction` }] },
-        { text: 'KNN', collapsed: true,
-          items: [{ text: 'Introduction', link: `${p}/learning/algorithms/knn/introduction` }] },
-        { text: 'SVM', collapsed: true,
-          items: [{ text: 'Introduction', link: `${p}/learning/algorithms/svm/introduction` }] },
-        { text: lang === 'fr' ? 'Arbre de décision' : 'Decision tree', collapsed: true,
-          items: [{ text: 'Introduction', link: `${p}/learning/algorithms/decision-tree/introduction` }] },
-        { text: 'Random Forest', collapsed: true,
-          items: [{ text: 'Introduction', link: `${p}/learning/algorithms/random-forest/introduction` }] },
-        { text: lang === 'fr' ? 'Boosting' : 'Boosting methods', collapsed: true,
-          items: [{ text: 'Introduction', link: `${p}/learning/algorithms/boosting/introduction` }] }
-      ]
-    },
-    {
       text: 'Deep Learning',
       collapsed: true,
       items: [
         { text: 'Introduction', link: `${p}/learning/deep-learning/introduction` },
+        {
+          text: 'Réseaux de Neurones de Convolution - CNNs',
+          collapsed: true,
+          items: [
+            { text: lang === 'fr' ? 'Fondamentaux' : 'Fundamentals', link: `${p}/learning/deep-learning/cnn/introduction` }
+          ]
+        },
         { text: lang === 'fr' ? 'Réseaux convolutifs (CNN)' : 'Convolutional networks (CNN)', link: `${p}/learning/deep-learning/cnn` },
         { text: lang === 'fr' ? 'Segmentation sémantique' : 'Semantic segmentation', link: `${p}/learning/deep-learning/segmentation` },
         { text: 'U-Net', link: `${p}/learning/deep-learning/unet` }
