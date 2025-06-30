@@ -1,28 +1,31 @@
-# ── Éditeurs ──────────────────────────────────────────────────────────────
+# ── Editors
 .vscode/
 .idea/
 
-# ── Variables d'environnement ──────────────────────────────────────────────
+# ── Environment variables
 .env
 .env.*
 
-# ── Logs ──────────────────────────────────────────────────────────────────
+# ── Claude Code
+.claude/
+
+# ── Logs
 logs/
 *.log
 
-# ── Node.js ───────────────────────────────────────────────────────────────
+# ── Node.js
 node_modules/
 
-# ── VitePress ─────────────────────────────────────────────────────────────
+# ── VitePress
 docs/.vitepress/cache/
 docs/.vitepress/dist/
 
-# ── Python ────────────────────────────────────────────────────────────────
+# ── Python
 **/__pycache__/
 *.pyc
 *.pyo
 .venv/
 
-# ── Modèle ML ─────────────────────────────────────────────────────────────
-model/data/       # datasets (volumieux)
-model/weights/    # poids entraînés (.pth)
+# ── ML model
+model/data/
+model/weights/

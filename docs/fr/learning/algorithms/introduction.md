@@ -1,2 +1,0 @@
-# Algorithmes d’apprentissage supervisé
-

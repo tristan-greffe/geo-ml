@@ -4,7 +4,7 @@
 
   ![Project Banner](./public/banner_readme.png)
 
-  <p>Applied AI & Machine Learning for GIS - from model training to interactive map</p>
+  <p>Geospatial ML - from model training to interactive map</p>
 
   <p>
     <a href="https://github.com/tristan-greffe/machine-learning">
@@ -22,7 +22,7 @@
   </p>
 
   <a href="https://tristan-greffe.github.io/machine-learning/">
-    <img src="https://skillicons.dev/icons?i=ai,py" />
+    <img src="hModèle MLttps://skillicons.dev/icons?i=ai,py" />
   </a>
 </div>
 

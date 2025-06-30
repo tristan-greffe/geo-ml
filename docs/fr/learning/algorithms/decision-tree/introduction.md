@@ -1,2 +1,0 @@
-# Arbre de décision
-
