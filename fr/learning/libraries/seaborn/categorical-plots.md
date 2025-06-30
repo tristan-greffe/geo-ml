@@ -231,3 +231,13 @@ Le boxen plot est une extension moderne du box plot (2011).
 | Voir la forme complète     | Violin plot          |
 | Voir les données brutes    | Swarm plot           |
 | Données massives complexes | Boxen plot           |
+
+## Fichier Python associé
+
+:::details Diagrammes catégoriels basés sur une statistique unique
+<<< ./scripts/categorical-plots.py
+:::
+
+:::details Diagrammes de distribution par catégorie
+<<< ./scripts/categorical-plots-categories.py
+:::
