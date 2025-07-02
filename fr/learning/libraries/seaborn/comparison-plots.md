@@ -113,3 +113,9 @@ Il est possible d’ajouter une variable catégorielle :
 | Vue globale des relations  | Pair plot            |
 | Exploration ML / EDA       | Pair plot            |
 | Données denses             | Joint plot (hexbin)  |
+
+## Fichier Python associé
+
+:::details comparison-plots
+<<< ./scripts/comparison-plots.py
+:::
