@@ -1,8 +1,5 @@
 """
 ===========================================================
-Copyright MonCoachData (tous droits réservés)
-Pour plus d'informations, visitez notre site moncoachdata.com
-
 Diagrammes Matriciels - Matrix Plots
 ===========================================================
 
