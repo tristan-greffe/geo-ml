@@ -216,7 +216,10 @@ function getLabsSidebar () {
     { text: 'Ateliers', link: '/fr/labs/introduction' },
     { text: 'Data Analyst / Scientist',
       collapsed: true,
-      items: []
+      items: [
+        { text: 'Analyse des biais de notation', link: '/fr/labs/data-analyst/movies' },
+        { text: 'Analyse climatique', link: '/fr/labs/data-analyst/weather' }
+      ]
     },
     { text: 'ML Engineer',
       collapsed: true,
