@@ -124,3 +124,5 @@ Ces notions seront introduites progressivement, avec des exemples concrets et de
 
 Si tu veux, je peux maintenant **créer une version très condensée et schématique de ce texte**, idéale pour un **support de cours ou une diapositive**.
 Veux-tu que je fasse ça ?
+
+

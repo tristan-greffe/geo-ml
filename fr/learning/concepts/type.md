@@ -76,3 +76,4 @@ Dans les prochaines vidéos, le cours se concentrera sur **le processus complet 
 
 Si tu veux, je peux maintenant **faire un schéma visuel simple** qui illustre clairement la différence entre **supervisé** et **non supervisé**, parfait pour une diapositive ou un support de cours.
 Veux-tu que je fasse ça ?
+

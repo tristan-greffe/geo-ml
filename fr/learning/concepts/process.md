@@ -100,3 +100,4 @@ Le machine learning supervisé consiste à :
 
 Si tu veux, je peux maintenant te **faire un schéma clair et visuel** qui résume tout le processus d’apprentissage supervisé avec : **données → features/label → train/test → entraînement → prédiction → ajustement**.
 Veux‑tu que je fasse ça ?
+
