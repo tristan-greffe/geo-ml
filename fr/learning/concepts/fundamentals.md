@@ -1,4 +1,4 @@
-# Concepts fondamentaux du machine learning
+# Concepts fondamentaux
 
 Quand on parle d’intelligence artificielle, on met souvent tout dans le même sac.  
 En réalité, il existe **plusieurs grandes familles de modèles**, qui se distinguent par **ce qu’ils font** et **comment ils apprennent**.
@@ -7,11 +7,7 @@ En réalité, il existe **plusieurs grandes familles de modèles**, qui se disti
 Les modèles de génération (texte, images, audio…) ne représentent qu’une partie de l’écosystème.
 :::
 
-## Qu’est-ce que le Machine Learning ?
-
-Le **Machine Learning (ML)** est un sous-domaine de l’intelligence artificielle qui permet aux machines **d’apprendre automatiquement à partir de données**, sans être explicitement programmées.
-
-:::tip Le parcours classique en data science
+## Le parcours classique en data science
 
 ![Machine Learning](/learning/concepts/machine-learning.svg)
 
@@ -27,17 +23,8 @@ Le **Machine Learning (ML)** est un sous-domaine de l’intelligence artificiell
 4. Enfin, des **modèles de machine learning** sont utilisés pour :
    * faire des prédictions
    * découvrir des structures cachées dans les données
-:::
 
-:::info Le machine learning est utilisé lorsque
 
-* Les règles sont trop complexes pour être codées manuellement
-* Les relations entre variables ne sont pas évidentes
-* Le volume de données est important
-* Une prédiction ou une automatisation est nécessaire
-
-Contrairement aux algorithmes classiques, le machine learning **apprend directement à partir des données**.
-:::
 
 :::info Fonctionnement d’un projet de Machine Learning
 1. Collecte des données  
@@ -47,13 +34,6 @@ Contrairement aux algorithmes classiques, le machine learning **apprend directem
 5. Évaluation  
 6. Amélioration  
 7. Déploiement  
-:::
-
-:::tip L’importance des données
-
-> *Un modèle n’est jamais meilleur que ses données.*
-
-Qualité, volume et représentativité sont essentiels.
 :::
 
 ## Les types d’apprentissage
@@ -96,6 +76,8 @@ Qualité, volume et représentativité sont essentiels.
 ## Les grandes familles de modèles
 
 Chaque famille répond à une **question fondamentale différente**.
+
+![familles de modèles](/learning/concepts/model-families.png)
 
 ### Modèles de classification
 👉 *« C’est quoi ? »*
