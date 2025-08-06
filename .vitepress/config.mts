@@ -138,7 +138,8 @@ function getLearningSidebar () {
     { text: 'Concepts',
       collapsed: true,
       items: [
-        { text: 'Fondamentaux', link: '/fr/learning/concepts/fundamentals' }
+        { text: 'Fondamentaux', link: '/fr/learning/concepts/fundamentals' },
+        { text: 'Utilité', link: '/fr/learning/concepts/utility' }
       ]
     },
     { text: 'Algorithmes d’apprentissage supervisé',
