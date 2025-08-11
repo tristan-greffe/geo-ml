@@ -36,43 +36,6 @@ Les modèles de génération (texte, images, audio…) ne représentent qu’une
 7. Déploiement  
 :::
 
-## Les types d’apprentissage
-
-| Type | Données utilisées | Objectif |
-|----|----|----|
-| Supervisé | Étiquetées | Prédire |
-| Non supervisé | Non étiquetées | Découvrir |
-| Renforcement | Récompenses | Décider |
-
-### 1️⃣ Apprentissage supervisé
-* Les données contiennent une **variable cible**
-* L’objectif est de **prédire un résultat**
-
-:::tip Le processus général du machine learning supervisé
-1. Compréhension du problème
-2. Préparation des données
-3. Séparation des données (entraînement / test)
-4. Entraînement du modèle
-5. Évaluation des performances
-6. Ajustement et amélioration du modèle
-:::
-
-:::info Exemples
-  * régression linéaire
-  * régression logistique
-  * arbres de décision
-  * random forests
-:::
-
-### 2️⃣ Apprentissage non supervisé
-* Aucune variable cible
-* L’objectif est de **découvrir des structures ou des regroupements**
-
-:::info Exemples
-  * clustering
-  * réduction de dimension
-:::
-
 ## Les grandes familles de modèles
 
 Chaque famille répond à une **question fondamentale différente**.
