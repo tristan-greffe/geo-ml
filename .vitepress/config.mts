@@ -139,7 +139,8 @@ function getLearningSidebar () {
       collapsed: true,
       items: [
         { text: 'Fondamentaux', link: '/fr/learning/concepts/fundamentals' },
-        { text: 'Utilité', link: '/fr/learning/concepts/utility' }
+        { text: 'Utilité', link: '/fr/learning/concepts/utility' },
+        { text: 'Types d’apprentissage', link: '/fr/learning/concepts/type' }
       ]
     },
     { text: 'Algorithmes d’apprentissage supervisé',
