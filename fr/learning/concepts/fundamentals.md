@@ -24,18 +24,6 @@ Les modèles de génération (texte, images, audio…) ne représentent qu’une
    * faire des prédictions
    * découvrir des structures cachées dans les données
 
-
-
-:::info Fonctionnement d’un projet de Machine Learning
-1. Collecte des données  
-2. Nettoyage et préparation  
-3. Choix du modèle  
-4. Entraînement  
-5. Évaluation  
-6. Amélioration  
-7. Déploiement  
-:::
-
 ## Les grandes familles de modèles
 
 Chaque famille répond à une **question fondamentale différente**.
