@@ -15,7 +15,7 @@ Le machine learning est indispensable pour traiter :
 * Des volumes de données **trop importants** pour une analyse humaine.
 * Des tâches qui nécessitent de la **prédiction ou de l’automatisation**.
 
-:::info Exemples 
+:::info 👉 Exemples 
 filtrage spam, lecture d’adresses manuscrites par les services postaux, reconnaissance de l’écriture, prédiction financière, etc.
 :::
 

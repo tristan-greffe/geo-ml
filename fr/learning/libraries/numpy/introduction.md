@@ -39,7 +39,6 @@ Additionner deux tableaux `NumPy` de grande taille est bien plus efficace que pa
 C’est cette efficacité qui a fait de `NumPy` le socle de toutes les bibliothèques de data science (Pandas, Scikit-learn, TensorFlow…).
 :::
 
-
 ### 2. Le Broadcasting
 
 Le **broadcasting** est l’une des fonctionnalités les plus puissantes de `NumPy`.  
