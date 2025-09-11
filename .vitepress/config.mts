@@ -140,14 +140,13 @@ function getLearningSidebar () {
       items: [
         { text: 'Fondamentaux', link: '/fr/learning/concepts/fundamentals' },
         { text: 'Utilité', link: '/fr/learning/concepts/utility' },
-        { text: 'Types d’apprentissage', link: '/fr/learning/concepts/type' },
-        { text: ' Processus de machine learning supervisé', link: '/fr/learning/concepts/process' }
+        { text: 'Types d’apprentissage', link: '/fr/learning/concepts/type' }
       ]
     },
     { text: 'Algorithmes d’apprentissage supervisé',
       collapsed: true,
       items: [
-        { text: 'Introduction', link: '/fr/learning/algorithms/introduction' },
+        { text: 'Processus', link: '/fr/learning/algorithms/process' },
         { text: 'Régression linéaire',
           collapsed: true,
           items: [
