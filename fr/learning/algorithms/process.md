@@ -1,6 +1,6 @@
 # Processus de machine learning supervisé
 
-![Machine Learning Process](/learning/concepts/ml-process.svg)
+![Machine Learning Process](/learning/algorithms/ml-process.svg)
 
 1. **Collecter et stocker des données** du monde réel.
 2. **Nettoyer et organiser les données** pour les rendre exploitables.
@@ -27,14 +27,14 @@ Ce processus illustre parfaitement la définition de l’apprentissage supervis�
 
 ### 1. Séparer les données en features & labels
 
-![Machine Learning Process](/learning/concepts/ml-process1.png)
+![Machine Learning Process](/learning/algorithms/ml-process1.png)
 
 * `X` : caractéristiques connues de la maison.
 * `Y` : label à prédire (prix de vente).
 
 ### 2. Diviser les données en ensembles d’entraînement et de tests
 
-![Machine Learning Process](/learning/concepts/ml-process2.png)
+![Machine Learning Process](/learning/algorithms/ml-process2.png)
 
 * **Training set (entraînement)** : 70 % des données pour apprendre les relations entre X et Y.
 * **Test set (tests)** : 30 % des données pour évaluer les performances du modèle sur des données **jamais vues**.
@@ -56,14 +56,14 @@ Ce processus illustre parfaitement la définition de l’apprentissage supervis�
 
 ### 5. Ajuster les hyperparamètres
 
-![Machine Learning Process](/learning/concepts/ml-process5.png)
+![Machine Learning Process](/learning/algorithms/ml-process5.png)
 
 * Si les performances sont insuffisantes, on ajuste les paramètres du modèle.
 * On répète l’entraînement et le test jusqu’à obtenir un modèle satisfaisant.
 
 ## Récapitulatif du flux de travail
 
-![Machine Learning Process](/learning/concepts/ml-process4.png)
+![Machine Learning Process](/learning/algorithms/ml-process4.png)
 
 1. Collecter et nettoyer les données.
 2. Identifier les features (X) et le label (Y).
@@ -78,7 +78,7 @@ Ce processus illustre parfaitement la définition de l’apprentissage supervis�
 
 Le machine learning supervisé consiste à :
 
-![Machine Learning Process](/learning/concepts/ml-process3.png)
+![Machine Learning Process](/learning/algorithms/ml-process3.png)
 
 * Utiliser des **données historiques et étiquetées**.
 * Apprendre les relations entre features et labels.
