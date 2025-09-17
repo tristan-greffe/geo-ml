@@ -5,7 +5,7 @@ La `régression linéaire` est l’un des algorithmes les plus fondamentaux en m
 :::info Exemple : x = y
 On peut modéliser parfaitement ces données avec une droite
 
-![régression linéaire](/learning/algorithms/linear-regression-x=y.png)
+![régression linéaire](/learning/algorithms/linear-regression.png)
 
 ➡️ Cela implique que pour une nouvelle valeur de x, je peux prédire la valeur de y qui lui est associée.
 :::

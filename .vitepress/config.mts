@@ -150,7 +150,8 @@ function getLearningSidebar () {
         { text: 'Régression linéaire',
           collapsed: true,
           items: [
-            { text: 'Introduction', link: '/fr/learning/algorithms/linear-regression/introduction' }
+            { text: 'Introduction', link: '/fr/learning/algorithms/linear-regression/introduction' },
+            { text: 'Moindres Carrés Ordinaires (MCO)', link: '/fr/learning/algorithms/linear-regression/ols' }
           ]
         },
         { text: 'Régression logistique',
