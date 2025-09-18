@@ -151,7 +151,8 @@ function getLearningSidebar () {
           collapsed: true,
           items: [
             { text: 'Introduction', link: '/fr/learning/algorithms/linear-regression/introduction' },
-            { text: 'Moindres Carrés Ordinaires (MCO)', link: '/fr/learning/algorithms/linear-regression/ols' }
+            { text: 'Moindres Carrés Ordinaires (MCO)', link: '/fr/learning/algorithms/linear-regression/ols' },
+            { text: 'Fonction de coût', link: '/fr/learning/algorithms/linear-regression/cost' }
           ]
         },
         { text: 'Régression logistique',
@@ -242,7 +243,7 @@ function getLabsSidebar () {
         { text: 'Reconnaissance Faciale',
           collapsed: true,
           items: [
-            { text: 'Introduction', link: '/fr/labs/introduction' }
+            { text: 'Introduction', link: '/fr/labs/facial-recognition/introduction' }
           ]
         }
       ]
