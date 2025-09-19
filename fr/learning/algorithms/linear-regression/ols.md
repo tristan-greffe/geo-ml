@@ -2,74 +2,20 @@
 
 *Formaliser mathématiquement la régression linéaire à travers la méthode des Moindres Carrés Ordinaires*
 
-`L’objectif est de comprendre :`
-* comment passer des données → à une équation
-* comment calculer les coefficients du modèle
-* pourquoi cette méthode fonctionne
+➡️ minimiser l’erreur globale entre les prédictions et les données réelles
 
-## Équation d’une droite (rappel)
+$$\sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
 
-On part de la forme la plus simple : 
-$$y = mx + b$$
+👉 On minimise la somme des erreurs au carré
 
-* `m` → pente de la droite
-* `b` → intercept (ordonnée à l’origine)
-* `x` → variable explicative (feature)
-* `y` → variable cible (ce que l’on veut prédire)
+:::tip Pourquoi le carré ?
+* évite l’annulation des erreurs (+ / -)
+* pénalise fortement les grosses erreurs
+* facilite les calculs mathématiques (dérivées)
 
-:::tip Limite : une seule feature
-Cette équation ne fonctionne que pour 1 seule variable d’entrée, or en machine learning, on a souvent plusieurs features (surface, pièces, localisation…)
+➡️ Visiualisation de l'erreur quadratique à minimiser 
+![régression linéaire 4](/learning/algorithms/linear-regression4.png)
 :::
-
-## Généralisation à plusieurs features
-
-<div style="display:flex; align-items:center; gap:10px;">
-  <img src="/learning/algorithms/linear-regression5.png" width="300"/>
-  <div>➡️</div>
-  <img src="/learning/algorithms/linear-regression6.png" width="300"/>
-  <div>➡️</div>
-  <img src="/learning/algorithms/linear-regression7.png" width="300"/>
-</div>
-<div style="display:flex; align-items:center; gap:10px;">
-  <div>➡️</div>
-  <img src="/learning/algorithms/linear-regression8.png" width="300"/>
-</div>
-
-On étend la formule :
-
-$$
-\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n = \sum_{j=0}^{n} \beta_j x_j
-$$
-
-* $\hat{y}$ → prédiction (et non valeur réelle)
-* $\beta$ → coefficients pour chaque feature afin de minimiser l'erreur
-* $n$ → nombre de features
-
-:::tip Représentation des données
-On peut structurer les données comme une matrice X (features) et un vecteur y (target)
-$$
-X =
-\begin{bmatrix}
-x_0^{(1)} & x_1^{(1)} & \cdots & x_n^{(1)} \\
-x_0^{(2)} & x_1^{(2)} & \cdots & x_n^{(2)} \\
-\vdots & \vdots & \ddots & \vdots \\
-x_0^{(m)} & x_1^{(m)} & \cdots & x_n^{(m)}
-\end{bmatrix}
-,\quad
-y =
-\begin{bmatrix}
-y^{(1)} \\
-y^{(2)} \\
-\vdots \\
-y^{(m)}
-\end{bmatrix}
-$$
-:::
-
-:::warning Objectif
-➡️ Trouver les coefficients $\beta$ qui minimisent l’erreur entre la valeurs réelles $y$ et la prédictions $\hat{y}$
-:::
-
 ## Régression linéaire simple (1 feature)
 
 $$
@@ -136,7 +82,7 @@ x \approx 38 \text{ heures}
 $$
 :::
 
-## Limites de la régression linéaire
+## Limites de la régression linéaire simple
 
 :::warning Attention
 La régression linéaire **ne fonctionne pas toujours**
@@ -170,3 +116,52 @@ flowchart LR
     classDef err fill:#C2E7DA,stroke:#333;
     classDef learn fill:#F4A6A6,stroke:#333;
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+### 🔹 Objectif du modèle
+
+Le but est de trouver les meilleurs `m` et `b` pour que la droite soit **au plus proche des données**.
+
+On cherche donc à minimiser l’erreur :
+
+
+$$
+\sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+$$
+
+
+---
+
+:::tip Limite : une seule feature
+Cette équation ne fonctionne que pour **1 seule variable d’entrée**.
+
+En pratique, on a souvent plusieurs variables (surface, nombre de pièces, localisation…), ce qui nécessite une version plus générale (régression linéaire multiple).
+:::
+
+---
+
+Si tu veux, je peux te faire la suite naturelle avec :
+👉 passage à ( \hat{y} = X\beta ) (version matricielle)
+👉 ou une intuition visuelle des résidus avec schéma 👍
