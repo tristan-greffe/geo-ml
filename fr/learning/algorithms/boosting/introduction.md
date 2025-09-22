@@ -1,2 +1,0 @@
-# Méthodes de Boosting
-

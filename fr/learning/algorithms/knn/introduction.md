@@ -1,2 +1,0 @@
-# KNN (K-Nearest Neighbors)
-

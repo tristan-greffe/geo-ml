@@ -1,3 +1,0 @@
-# Licence
-
-<<< ../LICENSE
