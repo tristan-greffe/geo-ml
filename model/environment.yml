@@ -1,0 +1,17 @@
+name: geoml
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - numpy
+  - pillow
+  - matplotlib
+  - rasterio
+  - geopandas
+  - pip
+  - pip:
+    - huggingface_hub
