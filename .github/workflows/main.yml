@@ -28,5 +28,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./.vitepress/dist
+          folder: ./docs/.vitepress/dist
           token: ${{ secrets.TOKEN_GITHUB }}
