@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  ![Project Banner](./public/banner_readme.png)
+  ![Project Banner](./docs/public/banner_readme.png)
 
   <p>Geospatial ML - from model training to interactive map</p>
 

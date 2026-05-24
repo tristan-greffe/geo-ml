@@ -1,13 +1,13 @@
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 export default withMermaid({
-  base: '/machine-learning',
+  base: '/geo-ml',
   title: 'GeoML',
   ignoreDeadLinks: true,
   appearance: false,
   head: [
     ['link', { href: 'https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css', rel: 'stylesheet' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/machine-learning/logo.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/geo-ml/logo.svg' }]
   ],
   markdown: {
     math: true

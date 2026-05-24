@@ -1,20 +1,20 @@
 {
-  "name": "machine-learning",
-  "description": "Machine Learning",
+  "name": "geo-ml",
+  "description": "Geospatial ML - from model training to interactive map",
   "version": "1.0.0",
   "packageManager": "pnpm@9.1.1",
-  "homepage": "https://github.com/tristan-greffe/machine-learning",
+  "homepage": "https://github.com/tristan-greffe/geo-ml",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tristan-greffe/machine-learning.git"
+    "url": "https://github.com/tristan-greffe/geo-ml.git"
   },
   "author": {
     "name": "Tristan Greffe contributors",
     "url": "https://github.com/tristan-greffe"
   },
   "bugs": {
-    "url": "https://github.com/tristan-greffe/machine-learning/issues"
+    "url": "https://github.com/tristan-greffe/geo-ml/issues"
   },
   "main": "index.js",
   "scripts": {
